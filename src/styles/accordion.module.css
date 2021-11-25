@@ -1,0 +1,19 @@
+.accordionWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.headingWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.headingWrapper p {
+  font-weight: 700;
+  margin-left: 20px;
+}
