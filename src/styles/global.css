@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -14,6 +14,10 @@ body {
 p {
   margin: 16px auto;
   line-height: 1.5em;
+}
+h4 {
+  margin: 16px auto;
+  font-size: 14px;
 }
 
 .layout {
@@ -66,8 +70,9 @@ footer .grid p {
 }
 
 footer .copyright {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   max-width: 1200px;
 }
 
@@ -90,7 +95,8 @@ footer .copyright p {
   }
 
   footer .copyright {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     max-width: 90%;
   }
 }

@@ -1,0 +1,31 @@
+.sliderWrapper {
+  margin: 50px auto;
+}
+
+.slider {
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-weight: 700;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.leftArrow {
+  margin-right: 10px;
+}
